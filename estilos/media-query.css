@@ -11,6 +11,7 @@
 
     section#login{
         width: 80vw;
+        height: 280px;
     }
     section#login > div#imagem{
         float: left;
@@ -29,6 +30,7 @@
     }
     section#login{
         width: 950px;
+        height: 400px;
     }
     section#login > div#imagem{
         float: right;
@@ -41,10 +43,14 @@
         width: 50%;
     }
     div#formulario > h1{
-        font-size: 2em;
+        font-size: 1em;
     }
 
     div#formulario{
         font-size: 1.2em;
+        margin: 10px 0px;
+    }
+    div.campo > input{
+        transform: translate(44px, -48px);
     }
 }
